@@ -12,24 +12,13 @@ const sectionIds = ["hero", "about", "project1", "project2", "project3", "projec
 
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeProjectId, setActiveProjectId] = useState(null);
   const [currentSection, setCurrentSection] = useState("");
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
-    setActiveProjectId(null);
-  };
-
-  const openProjectDetail = (id) => {
-    setActiveProjectId(id);
-  };
-
-  const closeProjectDetail = () => {
-    setActiveProjectId(null);
   };
 
   const closeAllMenus = () => {
-    setActiveProjectId(null);
     setMobileMenuOpen(false);
   };
 
@@ -38,42 +27,42 @@ function Header() {
   };
 
   useEffect(() => {
-  const handleScroll = () => {
-    const scrollY = window.scrollY;
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
 
-    // 히어로 섹션 높이 가져오기
-    const heroSection = document.getElementById("hero");
-    const heroHeight = heroSection ? heroSection.offsetHeight : 0;
+      // 히어로 섹션 높이 가져오기
+      const heroSection = document.getElementById("hero");
+      const heroHeight = heroSection ? heroSection.offsetHeight : 0;
 
-    // 히어로 구간에 있으면 currentSection을 빈 문자열 등으로 초기화 (활성화 없음)
-    if (scrollY < heroHeight - 100) {
-      setCurrentSection("");  // 빈 문자열이면 헤더 메뉴 아무 것도 활성화 안 됨
-      return;
-    }
+      // 히어로 구간에 있으면 currentSection을 빈 문자열 등으로 초기화 (활성화 없음)
+      if (scrollY < heroHeight - 100) {
+        setCurrentSection("");  // 빈 문자열이면 헤더 메뉴 아무 것도 활성화 안 됨
+        return;
+      }
 
-    let selected = "about"; //
+      let selected = "about";
 
-    for (const id of sectionIds) {
-      if (id === "hero") continue; //
+      for (const id of sectionIds) {
+        if (id === "hero") continue;
 
-      const section = document.getElementById(id);
-      if (section) {
-        const offsetTop = section.offsetTop;
-        const height = section.offsetHeight;
+        const section = document.getElementById(id);
+        if (section) {
+          const offsetTop = section.offsetTop;
+          const height = section.offsetHeight;
 
-        if (scrollY >= offsetTop - 100 && scrollY < offsetTop + height - 100) {
-          selected = id;
-          break;
+          if (scrollY >= offsetTop - 100 && scrollY < offsetTop + height - 100) {
+            selected = id;
+            break;
+          }
         }
       }
-    }
 
-    setCurrentSection(selected);
-  };
+      setCurrentSection(selected);
+    };
 
-  window.addEventListener("scroll", handleScroll);
-  return () => window.removeEventListener("scroll", handleScroll);
-}, []);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
@@ -87,15 +76,15 @@ function Header() {
           <ul className="flex space-x-6 text-gray-700">
             <li>
               <a
-              href="#about"
-              className={`transition-colors ${
-                currentSection === "about"
-                  ? "text-[#bb76d5] font-semibold"
-                  : "text-gray-700"
-              } hover:text-[#bb76d5] hover:font-semibold`}
-            >
-              About
-            </a>
+                href="#about"
+                className={`transition-colors ${
+                  currentSection === "about"
+                    ? "text-[#bb76d5] font-semibold"
+                    : "text-gray-700"
+                } hover:text-[#bb76d5] hover:font-semibold`}
+              >
+                About
+              </a>
             </li>
 
             {projects.map((p) => (
