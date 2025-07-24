@@ -39,14 +39,14 @@ const Project4 = () => {
 
             {/* 텍스트 박스 */}
             <div className="bg-white text-black text-sm md:text-base lg:text-base font-normal
-    p-6 max-w-[320px] leading-snug text-left font-[GangwonEduAllOTF]
+    p-6 max-w-[320px] leading-snug text-left
     border border-[#eeeeee] flex flex-col justify-end w-full">
               윈스) LED 칫솔 살균기 -<br />
               올리브영 웹에서 판매 중인<br />
               칫솔 살균기 상세페이지 리디자인<br />
               소요기간: 2일<br />
-              기존의 디자인 방향에 맞게 직접 디자인<br />
-              프로젝트 목표: 칫솔 살균기 판매촉진<br />
+              기존의 디자인 방향에 맞게<br />직접 디자인<br />
+              프로젝트 목표: 칫솔 살균기<br />판매촉진<br />
               사용 툴: 피그마, 포토샵, AI
             </div>
           </div>

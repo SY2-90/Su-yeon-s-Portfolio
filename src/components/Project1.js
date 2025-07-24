@@ -13,7 +13,7 @@ const Project1 = () => {
           <div className="relative max-w-[700px] aspect-[996/1024]">
             <img src={itemImage} alt="우리아이 앱 홍보 이미지" className="w-full h-full object-contain" />
           </div>
-          <div className="bg-[#ffffff] text-[#000000] text-sm md:text-base lg:text-base font-normal p-6 max-w-[300px] leading-snug text-left font-[GangwonEduAllOTF] border border-[#eeeeee] lg:ml-0 ml-auto">
+          <div className="bg-[#ffffff] text-[#000000] text-sm md:text-base lg:text-base font-normal p-6 max-w-[300px] leading-snug text-left border border-[#eeeeee] lg:ml-0 ml-auto">
             우리아이 앱 -<br />
             메인 로고 작업 및<br />
             하단 네비게이션 바 제작<br />
@@ -63,7 +63,7 @@ const Project1 = () => {
           {/* 텍스트 박스 */}
           <div className="
             bg-white text-black text-sm md:text-base lg:text-base font-normal m-0 p-7
-            max-w-[320px] aspect-square leading-snug text-left font-[GangwonEduAllOTF]
+            max-w-[320px] aspect-square leading-snug text-left
             border border-[#eeeeee] flex flex-col justify-end
           ">
             우리아이 앱 -

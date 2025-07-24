@@ -12,7 +12,7 @@ const Project2 = () => {
       <div className="w-full bg-[#FFFAFA] flex flex-col items-center pt-40 pb-20">
         <div className="w-full max-w-[1000px] flex flex-col lg:flex-row items-end justify-center gap-6 sm:gap-6 lg:gap-10 xl:gap-10">
           <div className="bg-white text-black text-sm md:text-base lg:text-base font-normal
-    p-7 max-w-[320px] aspect-square leading-snug text-left font-[GangwonEduAllOTF]
+    p-7 max-w-[320px] aspect-square leading-snug text-left
     border border-[#eeeeee] flex flex-col justify-end">
             우리아이 홈페이지<br />
             -<br />
