@@ -36,7 +36,7 @@ const About = () => {
       </div>
 
       {/* 소개글 */}
-      <div className="text-center max-w-[780px] mx-auto mb-10 px-4">
+      <div className="text-center max-w-[800px] mx-auto mb-10 px-4">
         <p className="font-space-grotesk text-base leading-relaxed tracking-wide text-black">
         ☺︎ 감성 중심의 UX/UI 설계 역량과 앱 런칭 및 파견 근무 등 실무 경험을 보유한 디자이너입니다.<br/>
         ☺︎ 정보 신뢰성과 보안이 중요한 화면에서 사용자 흐름과 정확한 정보 전달을 고려한 UI 설계에 강점을 지녔습니다.<br/>
