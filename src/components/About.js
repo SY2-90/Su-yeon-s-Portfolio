@@ -38,9 +38,9 @@ const About = () => {
       {/* 소개글 */}
       <div className="text-center max-w-[760px] mx-auto mb-10 px-4">
         <p className="font-space-grotesk text-base leading-relaxed tracking-wide text-black">
-        ☺︎ 사용자 중심의 사고와 감성적 접근을 바탕으로 따뜻한 경험을 설계합니다.<br/>
-        ☺︎ 앱 UI, 브랜딩, 마케팅 콘텐츠, 퍼블리싱까지 아우르는 실무형 디자이너입니다.<br/>
-        ☺︎ 꼼꼼함과 소통을 바탕으로 팀과 함께 완성도 높은 결과물을 만들어냅니다.
+        ☺︎ 감성 중심의 UX/UI 설계 역량과 앱 런칭 및 파견 근무 등 실무 경험을 보유한 디자이너입니다.<br/>
+        ☺︎ 정보 신뢰성과 보안이 중요한 화면에서 사용자 흐름과 정확한 정보 전달을 고려한 UI 설계에 강점을 지녔습니다.<br/>
+        ☺︎ 에이전시 소속 파견 근무를 통해 다양한 요구사항에 유연하게 대응하며 실무 적응력과 협업 능력을 쌓았습니다.
         </p>
       </div>
 
