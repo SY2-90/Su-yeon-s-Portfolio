@@ -27,7 +27,7 @@ function Hero() {
 
         {/* 소개 문구 */}
         <p className="mt-6 text-lg md:text-xl text-gray-600">
-          UX/UI 디자이너 김수연입니다.
+          UI/UX 웹 디자이너 김수연입니다.
         </p>
       </div>
     </section>
