@@ -16,12 +16,12 @@ const About = () => {
         <div className="rounded-full border border-black bg-[#F07039] w-4 sm:w-5 md:w-6" style={{ aspectRatio: '1 / 1', flexShrink: 0 }}></div>
       </div>
 
-      {/* 타이틀: UX✧UI Designer: 김 수 연 */}
+      {/* 타이틀: UI✧UX Web Designer: 김 수 연 */}
       <div className="flex justify-center items-center mb-10 md:mb-8 px-2 sm:px-4">
         <h2 className="font-space-grotesk font-medium leading-tight sm:leading-snug tracking-widest text-black
         text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl
         text-center">
-         UX✧UI Designer: <span className="font-almarai font-bold">김 수 연</span>
+         UI✧UX Web Designer: <span className="font-almarai font-bold">김 수 연</span>
         </h2>
       </div>
 
