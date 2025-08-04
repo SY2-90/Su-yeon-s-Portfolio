@@ -50,7 +50,7 @@ const About = () => {
       {/* 상세 정보 */}
       <div className="text-center md:text-center max-w-[800px] mx-auto space-y-6 px-4">
         <div className="font-almarai text-base leading-7 text-black">
-          <p><strong>지원분야</strong> : UX✧UI / 퍼블리셔</p>
+          <p><strong>지원분야</strong> : UI✧UX 웹 디자이너 / 퍼블리셔</p>
           <p><strong>학력</strong> : 남서울대학교 아동복지학과 졸업 (2014)</p>
         </div>
 
